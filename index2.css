@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./IMAGENES/FONDO\ LOGIN\ A.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+form{
+    position: absolute;
+    min-width: 280px;
+    max-width: 25%;
+    width: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
+    background-color: #0000007d;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 5px 6px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.acuerdo{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-weight: bold;
+}
+
+.boton{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(89 89 89);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 15px;
+}
+
+.link{
+    text-align: center;
+    margin-top: 15px;
+    color: red;
+}
+
+a {
+    color: rgb(255, 255, 255);
+  }
+  
+a:hover {
+    color: rgb(209, 94, 0); 
+  }
+
+
+
+
+
+.boton:hover{
+    background-color: rgb(255, 123, 0);
+    color: rgb(0, 0, 0);
+}
+
+
+.inicio{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+    font-size: 12px;
+    padding-top: 15px;
+}

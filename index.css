@@ -1,0 +1,617 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header{
+    height: 700px;
+    width: 100%;
+    background-image: url(/IMAGENES/honda-cb-750-cafe-racer-7.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    /*background: linear-gradient(to top, #eaeaea, #dbdbdb,#f2f2f2,#ada996)*/
+}
+
+
+
+
+.nav-bar{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 34, 34, 0.521);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2)
+    
+      
+}
+
+.nav-bar h2{
+    font-size: 30px;
+    color: rgb(190, 190, 190);
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.3s ease 0s ;
+}
+
+.nav-bar h2:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+
+
+.btn-menu{
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+
+.nav-bar-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    list-style: none;
+}
+
+.nav-bar-items li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.3s ease 0s ;
+    font-size: 12px;
+}
+.nav-bar-items li a:hover{
+    color: rgb(255, 81, 0);
+    transform: scale(1.5);
+}
+
+
+
+
+.container-eslogan{
+    width: 50%;
+    height: 100%;
+    padding-left: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.container-eslogan h1{
+    text-align:start;
+    color: white;
+}
+
+
+
+
+
+
+
+.section-info{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info{
+    width: 72%;
+    height: 300px;
+    background: rgb(255, 255, 255);
+}
+
+.info-nosotros{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info-nosotros p{
+    color: rgb(27, 27, 27);
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+.info-cards{
+    width: 100%;
+    height: 700px;
+    background: rgb(24, 24, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    height: 450px;
+    width: 400px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.562); 
+    cursor: pointer;border-radius: 10px;
+}
+
+.card:hover{
+    background-color: rgb(170, 102, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    }
+
+
+
+.card:nth-child(1){
+    background-color: rgb(255, 0, 0);
+    background-image: url(./IMAGENES/CARD1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card:nth-child(2){
+    background-color: green;
+    background-image: url(./IMAGENES/CARD2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.card:nth-child(3){
+    background-color: rgb(255, 230, 5);
+    background-image: url(./IMAGENES/CARD3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/* PRIMERA GALERIA DE FOTOS */
+.container-galeria-1{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 0;
+}
+
+
+.foto-grande-galeria1{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(255, 0, 85);
+    cursor: pointer;
+    background-image: url(./IMAGENES/galeria-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.container-fotodoble1-galeria1{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.foto-a-galeria1{
+    height: 240px;
+    width: 400px;
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    background-image: url(./IMAGENES/FB_IMG_1558706176508.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.foto-b-galeria1{
+    height: 240px;
+    width: 400px;
+    background-color: rgb(207, 64, 64);
+    cursor: pointer;
+    background-image: url(./IMAGENES/20200728_175315.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.container-fotodoble2-galeria1{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.foto-c-galeria1{
+    height: 240px;
+    width: 400px;
+    background-color: rgb(0, 255, 13);
+    cursor: pointer;
+    background-image: url(./IMAGENES/20200805_184111.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.foto-d-galeria1{
+    height: 240px;
+    width: 400px;
+    background-color: rgb(0, 77, 26);
+    cursor: pointer;
+    background-image: url(/IMAGENES/20210111_152359.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+
+/*ANIMACIONES GALERIA DE FOTOS 1 */
+.foto-grande-galeria1{
+    transition: all 0.3s ease 0s;
+}
+
+.foto-grande-galeria1:hover{
+    transform: scale(1.02);
+    }
+
+
+
+.foto-a-galeria1:hover{
+    transform: scale(1.02);
+    }
+.foto-a-galeria1:hover{
+        transition: all 0.3s ease 0s;
+    }
+
+
+
+
+.foto-b-galeria1:hover{
+        transform: scale(1.02);
+        }
+.foto-b-galeria1:hover{
+        transition: all 0.3s ease 0s;
+        }
+    
+
+
+
+.foto-c-galeria1:hover{
+        transform: scale(1.02);
+        }
+.foto-c-galeria1:hover{
+        transition: all 0.3s ease 0s;
+        }
+
+
+
+
+.foto-d-galeria1:hover{
+        transform: scale(1.02);
+        }
+.foto-d-galeria1:hover{
+        transition: all 0.3s ease 0s;
+        }
+
+
+
+
+
+.servicios{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.caja-info{
+    height: 200px;
+    width: 35%;
+}
+
+.caja-info:nth-child(1){
+    background-color: rgb(189, 134, 89);
+}
+
+.caja-info:nth-child(2){
+    background-color: rgb(117, 69, 36);
+}
+
+.caja-info:nth-child(3){
+    background-color: rgb(75, 42, 0);
+}
+
+
+
+
+
+
+
+/* SEGUNDA GALERIA DE FOTOS */
+.container-galeria-2{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 0;
+}
+
+
+.container-fotodoble1-galeria2{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.foto-a-galeria2{
+    height: 240px;
+    width: 400px;
+    background-color: rgb(17, 0, 255);
+    cursor: pointer;
+    background-image: url(./IMAGENES/20200303_115800.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.foto-b-galeria2{
+    height: 240px;
+    width: 400px;
+    background-color: rgb(49, 132, 226);
+    cursor: pointer;
+    background-image: url(./IMAGENES/20210111_160924.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+.container-fotodoble2-galeria2{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.foto-c-galeria2{
+    height: 240px;
+    width: 400px;
+    background-color: rgb(5, 158, 0);
+    cursor: pointer;
+    background-image: url(./IMAGENES/20210109_132604.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.foto-d-galeria2{
+    height: 240px;
+    width: 400px;
+    background-color: rgb(0, 77, 26);
+    cursor: pointer;
+    background-image: url(./IMAGENES/20210115_163730.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.foto-grande-galeria2{
+    height: 500px;
+    width: 400px;
+    background-color: orange;
+    cursor: pointer;
+    background-image: url(./IMAGENES/20201218_170839.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+
+/*ANIMACIONES GALERIA DE FOTOS 2 */
+.foto-grande-galeria2{
+    transition: all 0.3s ease 0s;
+}
+
+.foto-grande-galeria2:hover{
+    transform: scale(1.02);
+    }
+
+
+
+.foto-a-galeria2:hover{
+    transform: scale(1.02);
+    }
+.foto-a-galeria2:hover{
+        transition: all 0.3s ease 0s;
+    }
+
+
+
+
+.foto-b-galeria2:hover{
+        transform: scale(1.02);
+        }
+.foto-b-galeria2:hover{
+        transition: all 0.3s ease 0s;
+        }
+    
+
+        
+
+.foto-c-galeria2:hover{
+        transform: scale(1.02);
+        }
+.foto-c-galeria2:hover{
+        transition: all 0.3s ease 0s;
+        }
+
+
+
+
+.foto-d-galeria2:hover{
+        transform: scale(1.02);
+        }
+.foto-d-galeria2:hover{
+        transition: all 0.3s ease 0s;
+        }
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(255, 161, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+    .container-footer{
+        height: 200px;
+        width: 72%;
+        background-color: rgb(43, 16, 0);
+    }
+
+
+/* CELULAR RESPONSIVE */
+@media (max-width: 767px) {
+    
+    .nav-bar{
+        background-color: rgba(0, 0, 0, 0.473);
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+
+        
+    }
+    .nav-bar h2{
+       width: auto;
+       margin-left: 30px;
+       font-size: 22px;
+       color: rgb(255, 255, 255);
+    }
+
+    .btn-menu{
+        font-size: 25px;
+        margin-right: 30px;
+        cursor: pointer;
+        display: block;
+        color: white;
+    }
+    
+    
+    .nav-bar-items{
+        position: fixed;
+        width: 100%;
+        height: 400px;
+        top: 70px;
+        background-color: rgba(19, 19, 19, 0.719);
+        transition: all 0.3s ;
+        row-gap: 20px;
+        right: -100%;
+        display: flex;
+        flex-direction: column;  
+        
+        
+    }
+    
+
+    .nav-bar-items li {
+        
+        line-height: 30px;
+        transition: all .5s;
+        text-align: center;
+    }
+
+    .nav-bar-items li a {
+        color: rgb(255, 255, 255);
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 600;
+        
+    }
+    
+    .info-cards{
+        padding: 15px;
+    }
+
+    #check{
+        display: none;
+    }
+
+    #check:checked ~ .nav-bar-items{
+        right:0%
+        
+    }
+
+    #check:checked ~ .nav-bar-items li{
+        display: block;
+    }
+    
+
+    
+
+
+
+
+
+
+}   
+
