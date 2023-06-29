@@ -33,8 +33,8 @@ header{
     align-items: center;
     position: fixed;
     z-index: 1;
-    backdrop-filter: blur(4px);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);  
+    backdrop-filter: blur(20px);
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);   */
     
 }
 
@@ -42,7 +42,7 @@ header{
     font-size: 30px;
     color: rgb(190, 190, 190);
     cursor: pointer;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transition: all 0.3s ease 0s ;
 }
 
@@ -74,7 +74,7 @@ header{
     text-decoration: none;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transition: all 0.3s ease 0s ;
     font-size: 12px;
 }
@@ -93,7 +93,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 .container-eslogan h1{
@@ -115,6 +115,7 @@ header{
     align-items: center;
     scroll-margin-top: 60px;
     scroll-behavior: smooth;   
+    padding: 0 20;
 }
 
 .container-info{
@@ -137,7 +138,7 @@ header{
     color: rgb(46, 44, 44);
     font-size: 16px;
     text-align: justify;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -182,12 +183,14 @@ header{
 
 
 
-.cards-servicios p{
+.cards-servicios  .card-info p{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 200;
     color: rgb(255, 255, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    padding: 60px;
+    
 
 }
 
@@ -206,7 +209,7 @@ header{
 }
 
 .card-info:nth-child(3){
-    background-image: url(./IMAGENES/CARD\ INFO\ TAPIZADO\ FINAL.jpg);
+    background-image: url(./IMAGENES/CARD\ INFO\ TAPIZADO\ FINALA.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,14 +217,23 @@ header{
 
 
 
-
+.container-galerias{
+    width: 100%;
+    height: auto;
+    background-image: url(./IMAGENES/FONDO\ GALERIA.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 
 /* PRIMERA GALERIA DE FOTOS */
 .container-galeria-1{
     width: 100%;
     height: auto;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255);
+    background-image: url(./IMAGENES/FONDO\ GALERIA.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,8 +243,8 @@ header{
     gap: 20px;
     flex-wrap: wrap;
     padding: 20px 0 20px 0;
-    margin-top: 30px;
-    scroll-margin-top: 60px;   
+    
+    scroll-margin-top: 70px;   
     scroll-behavior: smooth; 
 }
 
@@ -240,7 +252,6 @@ header{
 .foto-grande-galeria1{
     height: 500px;
     width: 400px;
-    
     cursor: pointer;
     background-image: url(./IMAGENES/galeria-1.jpg);
     background-size: cover;
@@ -261,7 +272,6 @@ header{
 .foto-a-galeria1{
     height: 240px;
     width: 400px;
-    
     cursor: pointer;
     background-image: url(./IMAGENES/FB_IMG_1558706176508.jpg);
     background-size: cover;
@@ -271,7 +281,6 @@ header{
 .foto-b-galeria1{
     height: 240px;
     width: 400px;
-    
     cursor: pointer;
     background-image: url(./IMAGENES/20200728_175315.jpg);
     background-size: cover;
@@ -291,9 +300,8 @@ header{
 .foto-c-galeria1{
     height: 240px;
     width: 400px;
-   
     cursor: pointer;
-    background-image: url(./IMAGENES/20200805_184111.jpg);
+    background-image: url(./IMAGENES/FOTO\ C\ GALERIA\ 1.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -301,7 +309,6 @@ header{
 .foto-d-galeria1{
     height: 240px;
     width: 400px;
-   
     cursor: pointer;
     background-image: url(/IMAGENES/20210111_152359.jpg);
     background-size: cover;
@@ -363,7 +370,7 @@ header{
 
 
 
-.servicios{
+/* .servicios{
     width: 100%;
     height: 200px;
     background-color: rgb(0, 0, 0);
@@ -388,7 +395,7 @@ header{
 
 .caja-info:nth-child(3){
     background-color: rgb(75, 42, 0);
-}
+} */
 
 
 
@@ -400,7 +407,7 @@ header{
 .container-galeria-2{
     width: 100%;
     height: auto;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -423,7 +430,6 @@ header{
 .foto-a-galeria2{
     height: 240px;
     width: 400px;
-    
     cursor: pointer;
     background-image: url(./IMAGENES/20200303_115800.jpg);
     background-size: cover;
@@ -433,7 +439,6 @@ header{
 .foto-b-galeria2{
     height: 240px;
     width: 400px;
-   
     cursor: pointer;
     background-image: url(./IMAGENES/20210111_160924.jpg);
     background-size: cover;
@@ -459,7 +464,6 @@ header{
 .foto-c-galeria2{
     height: 240px;
     width: 400px;
-    
     cursor: pointer;
     background-image: url(./IMAGENES/20210109_132604.jpg);
     background-size: cover;
@@ -469,7 +473,6 @@ header{
 .foto-d-galeria2{
     height: 240px;
     width: 400px;
-    
     cursor: pointer;
     background-image: url(./IMAGENES/20210115_163730.jpg);
     background-size: cover;
@@ -480,9 +483,8 @@ header{
 .foto-grande-galeria2{
     height: 500px;
     width: 400px;
-   
     cursor: pointer;
-    background-image: url(./IMAGENES/20201218_170839.jpg);
+    background-image: url(./IMAGENES/FOTO\ GRANDE\ GALERIA\ 2.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -542,25 +544,90 @@ header{
 
 
 
-
-
-
-/*footer{
+.form-container{
+    height: 600px;
     width: 100%;
-    height: 200px;
-    background-color: rgb(255, 161, 84);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(231, 231, 231);
+    background-image: url(./IMAGENES/FOTO\ FORMA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    scroll-margin-top: 60px;   
+    scroll-behavior: smooth; 
+    
+}
+
+
+    .form-contacto{
+        width: 450px;
+        height: 450px;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 0 0 40px -10px #000;
+        box-sizing: border-box;
+        
+        padding: 20px 30px;  
+    }
+
+    .form-contacto h2{
+        margin: 10px 0;
+        padding-bottom: 10px;
+        width: 180px;
+        color: rgb(0, 0, 0);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        border-bottom: 3px solid black;
+    }
+
+    .form-contacto input{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background: none;
+        outline: none;
+        resize: none;
+        border: 0;
+        font-family: 'Montserrat', sans-serif;
+        transition: all .3s;
+        border-bottom: 2px solid grey;
+    }
+
+    .form-contacto input:focus{
+        border-bottom: 2px solid lightblue;
+    }
+
+    .form-contacto p:before{
+        content: attr(type);
+        display: block;
+        margin: 28px 0 0;
+        font-size: 14px;
+        color: gray;
+    }
+
+    .form-contacto button{
+        float: right;
+        padding: 8px 12px;
+        margin: 8px 0 0;
+        font-family: 'Montserrat', sans-serif;
+        border: 2px solid gray;
+        background: 0;
+        color: black;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .form-contacto button:hover{
+        background: gray;
+        color:white
+        
+
     }
 
 
 
-    .container-footer{
-        height: 200px;
-        width: 72%;
-        background-color: rgb(43, 16, 0);
-    }/*
 
 
     
@@ -569,7 +636,7 @@ header{
 .pie_pagina{
     width: 100%;
     background:rgb(92, 92, 92);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 
 
@@ -678,7 +745,7 @@ header{
         width: 100%;
         height: 400px;
         top: 70px;
-        background-color: rgba(19, 19, 19, 0.719);
+        background-color: rgba(0, 0, 0, 0.842);
         transition: all 0.3s ;
         row-gap: 20px;
         right: -100%;
@@ -700,7 +767,7 @@ header{
         color: rgb(255, 255, 255);
         font-size: 12px;
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 200;
         
     }
     
@@ -725,7 +792,8 @@ header{
         color: rgb(27, 27, 27);
         font-size: 13px;
         text-align: justify;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        
 
     }
 
@@ -759,6 +827,15 @@ header{
         padding: 5px;
         font-size: 15px;
     }
+
+
+
+
+    .form-contacto{
+        width: 350px;
+    }
+
+
 
 
 
