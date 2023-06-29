@@ -568,7 +568,6 @@ header{
         border-radius: 10px;
         box-shadow: 0 0 40px -10px #000;
         box-sizing: border-box;
-        
         padding: 20px 30px;  
     }
 
@@ -866,10 +865,43 @@ header{
 
 
 
-    .form-contacto{
-        width: 350px;
+    .container-galerias{
+        background-image: url(./IMAGENES/FONDO\ RESPONSIVE\ GALERIA.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: grayscale(1);
+        
     }
 
+    .foto-grande-galeria1, .foto-a-galeria1, .foto-b-galeria1, .foto-c-galeria1, .foto-d-galeria1{
+        width: 360px;
+        border-radius: 0px;
+    } 
+
+    .foto-grande-galeria2, .foto-a-galeria2, .foto-b-galeria2, .foto-c-galeria2, .foto-d-galeria2 {
+        width: 360px;
+        border-radius: 0px;
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    .form-contacto{
+        width: 350px;
+        background-color: rgb(241, 241, 241);
+    }
+   
 
 
 
