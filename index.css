@@ -765,13 +765,13 @@ header{
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
 
-}
-.container-eslogan h1{
+    }
+    .container-eslogan h1{
     text-align:center;
     color: white;
     font-size: 20px;
     font-weight: 100;
-}
+    }
     
 
 
@@ -831,7 +831,7 @@ header{
 
     .container-galerias{
         background-image: none;
-        background-color: rgb(214, 214, 214);
+        background-color: rgb(255, 255, 255);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -840,12 +840,12 @@ header{
 
     .foto-grande-galeria1, .foto-a-galeria1, .foto-b-galeria1, .foto-c-galeria1, .foto-d-galeria1{
         width: 360px;
-        border-radius: 10px;
+        border-radius: 0px;
     } 
 
     .foto-grande-galeria2, .foto-a-galeria2, .foto-b-galeria2, .foto-c-galeria2, .foto-d-galeria2 {
         width: 360px;
-        border-radius: 10px;
+        border-radius: 0px;
     }
 
     
