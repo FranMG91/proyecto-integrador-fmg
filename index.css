@@ -169,13 +169,11 @@ header{
     border-radius: 10px;
     transition: all 0.3s ease 0s;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.562); 
-    
 }
 
 
 
 .card-info:hover{
-    background-color: rgb(170, 102, 0);
     color: rgb(255, 255, 255);
     transform: scale(1.05);
     }
@@ -190,6 +188,9 @@ header{
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     padding: 60px;
+    border: solid 1px;
+    border-color: rgb(161, 161, 161);
+    width: 80%;
     
 
 }
@@ -220,7 +221,7 @@ header{
 .container-galerias{
     width: 100%;
     height: auto;
-    background-image: url(./IMAGENES/FONDO\ GALERIA.jpg);
+    background-image: url(./IMAGENES/FONDO\ RESPOSIVE\ ASFALTO\ GALERIA\ 3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -232,8 +233,6 @@ header{
 .container-galeria-1{
     width: 100%;
     height: auto;
-    /* background-color: rgb(255, 255, 255);
-    background-image: url(./IMAGENES/FONDO\ GALERIA.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -272,7 +271,7 @@ header{
     height: 240px;
     width: 400px;
     cursor: pointer;
-    background-image: url(./IMAGENES/FB_IMG_1558706176508.jpg);
+    background-image: url(./IMAGENES/FOTO\ GALERIA\ A.JPG);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -857,31 +856,34 @@ header{
     }
     .cards-servicios .card-info p {
         color: rgb(255, 255, 255);
-        padding: 70px;
+        padding: 40px;
         font-size: 12px;
         font-weight: 100;
+        width: 80%;
     }
 
 
 
 
     .container-galerias{
-        background-image: url(./IMAGENES/FONDO\ RESPONSIVE\ GALERIA.jpg);
+        background-image: none;
+        background-color: rgb(228, 228, 228);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        backdrop-filter: grayscale(1);
+        padding-top: 5px;
+        
         
     }
 
     .foto-grande-galeria1, .foto-a-galeria1, .foto-b-galeria1, .foto-c-galeria1, .foto-d-galeria1{
         width: 360px;
-        border-radius: 0px;
+        border-radius: 10px;
     } 
 
     .foto-grande-galeria2, .foto-a-galeria2, .foto-b-galeria2, .foto-c-galeria2, .foto-d-galeria2 {
         width: 360px;
-        border-radius: 0px;
+        border-radius: 10px;
     }
 
     
